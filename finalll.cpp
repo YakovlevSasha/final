@@ -248,7 +248,7 @@ int main() {
             sortToDoList(criterion);
             break;
         }
-        case 7: saveToFile("saves.txt"); break;
+        case 7: saveToFile("new_file.txt"); break;
         case 8: loadFromFile("saves.txt"); break;
         case 0: cout << "Вихід...\n"; break;
         default: cout << "** Невірна опція.\n";
